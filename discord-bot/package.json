@@ -3,11 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "tsx src/index.ts",
-    "register": "tsx src/register.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
-  },
   "dependencies": {
     "@workspace/db": "workspace:*",
     "discord.js": "^14.21.0",
