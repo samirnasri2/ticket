@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "node src/bot.js --deploy && node src/bot.js"
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
@@ -15,7 +15,8 @@
     "express": "^5.0.0",
     "nanoid": "^5.1.5",
     "openai": "^5.3.0",
-    "play-dl": "^1.9.7"
+    "play-dl": "^1.9.7",
+    "tsx": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
