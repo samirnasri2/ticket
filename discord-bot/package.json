@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "node src/bot.js"
+    "start": "node src/bot.js --deploy && node src/bot.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
