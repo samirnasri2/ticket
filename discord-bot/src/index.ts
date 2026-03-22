@@ -160,4 +160,4 @@ client.on(Events.GuildMemberAdd, onGuildMemberAdd);
 client.on(Events.GuildMemberRemove, onGuildMemberRemove);
 client.on(Events.MessageCreate, onMessageCreate);
 
-await client.login(MTQ3NzA1NTc0MzQzNjkxODg5NQ.GGA4no.QUu3Nu1gUMp2PrXLbIJIySbdipECUKRTGV_K7E);
+await client.login(MTQ3NzA1NTc0MzQzNjkxODg5NQ.GKL4M4.GbvbPin97d7z05BF1zkn6AXXqfrhVpzRTLN9HY);
