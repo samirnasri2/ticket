@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "Smooth page transitions and micro-interactions"
+  "date-fns": "Formatting uptime and dates"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without conflicts"
+  "lucide-react": "Beautiful consistent icons"
+
+images:
+  - path: "artifacts/dashboard/public/images/dashboard-banner.png"
+    description: "Abstract dark deep space background with subtle neon blurple and magenta glowing particle dust, dark theme, discord style"
+    aspect_ratio: "16:9"
+
+notes:
+  - Using direct fetch polling as requested for /bot/* endpoints
+  - The API endpoints are assumed to be hosted at the same origin under /bot/
+  - Storing moderation history in React local state per requirements

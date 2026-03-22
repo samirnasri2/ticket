@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-success: hsl(var(--success));
+  --color-success-foreground: hsl(var(--success-foreground));
+}
+
+:root {
+  /* White & Azure Theme */
+  --background: 0 0% 100%;           /* pure white */
+  --foreground: 220 25% 12%;         /* near-black */
+
+  --card: 0 0% 99%;                  /* white card */
+  --card-foreground: 220 25% 12%;
+
+  --sidebar: 210 50% 97%;            /* icy white-blue */
+  --sidebar-foreground: 220 20% 28%;
+  --sidebar-border: 210 30% 88%;
+
+  --primary: 210 100% 50%;           /* azure #0080FF */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 45% 93%;          /* light azure tint */
+  --secondary-foreground: 210 80% 28%;
+
+  --muted: 210 25% 95%;              /* very light blue-gray */
+  --muted-foreground: 210 14% 48%;
+
+  --accent: 210 90% 55%;             /* vivid azure accent */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 80% 55%;
+  --destructive-foreground: 0 0% 100%;
+
+  --success: 145 65% 42%;
+  --success-foreground: 0 0% 100%;
+
+  --border: 210 28% 88%;
+  --input: 210 28% 84%;
+  --ring: 210 100% 50%;
+}
+
+/* BLACK / DARK MODE */
+.dark {
+  --background: 0 0% 7%;               /* near-black #121212 */
+  --foreground: 210 15% 92%;           /* off-white */
+
+  --card: 0 0% 10%;                    /* dark card */
+  --card-foreground: 210 15% 92%;
+
+  --sidebar: 0 0% 5%;                  /* deepest black sidebar */
+  --sidebar-foreground: 210 12% 70%;
+  --sidebar-border: 0 0% 14%;
+
+  --primary: 210 100% 55%;             /* azure still bright on dark */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 0 0% 15%;
+  --secondary-foreground: 210 15% 85%;
+
+  --muted: 0 0% 14%;
+  --muted-foreground: 210 10% 55%;
+
+  --accent: 210 90% 60%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 75% 55%;
+  --destructive-foreground: 0 0% 100%;
+
+  --success: 145 60% 45%;
+  --success-foreground: 0 0% 100%;
+
+  --border: 0 0% 16%;
+  --input: 0 0% 14%;
+  --ring: 210 100% 55%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased font-sans selection:bg-primary/30 selection:text-primary-foreground;
+    /* Custom scrollbar for webkit to match theme */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-card rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+}
