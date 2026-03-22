@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/register.ts && tsx src/index.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
