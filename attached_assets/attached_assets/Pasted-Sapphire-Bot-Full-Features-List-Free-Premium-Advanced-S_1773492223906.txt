@@ -1,0 +1,380 @@
+Sapphire Bot — Full Features List (Free + Premium + Advanced Slash Commands)
+
+Sapphire Bot is an advanced multifunction Discord bot designed for moderation, automation, entertainment, server management, and AI-powered utilities. It supports modern Discord slash commands, automod systems, music playback, logging, leveling, and premium features for large communities.
+
+Core Features
+
+Sapphire Bot provides powerful server management tools with easy-to-use slash commands. The bot is designed to keep communities safe, active, and organized while adding fun interactive systems.
+
+Key systems include:
+
+• Advanced Auto Moderation
+• Moderation Commands
+• Music System
+• AI Chat System
+• Economy & Leveling
+• Ticket System
+• Giveaway System
+• Logging System
+• Welcome & Goodbye Messages
+• Reaction Roles
+• Mini Games
+• Utility Commands
+• Server Management Tools
+• Premium Advanced Features
+
+Moderation System
+
+Sapphire Bot includes powerful moderation tools for administrators and moderators.
+
+Slash Commands:
+
+/ban – Ban a user from the server
+/unban – Unban a previously banned user
+/kick – Kick a user from the server
+/mute – Temporarily mute a member
+/unmute – Remove mute from a user
+/warn – Warn a user
+/warnings – View warnings of a user
+/clear – Delete multiple messages
+/slowmode – Set slow mode in a channel
+/lock – Lock a channel
+/unlock – Unlock a channel
+/nickname – Change a user nickname
+/timeout – Timeout a user
+/untimeout – Remove timeout
+
+Advanced Moderation:
+
+• Mass message purge
+• Auto punishment system
+• Warning tracking database
+• Temporary bans and mutes
+• Role hierarchy protection
+• Anti raid protection
+
+Auto Moderation (AutoMod)
+
+Sapphire includes a powerful automatic moderation system to protect servers.
+
+Features:
+
+• Bad word filter
+• Link filter
+• Anti spam detection
+• Anti raid system
+• Anti invite links
+• Anti excessive caps
+• Anti mention spam
+• Anti emoji spam
+• Anti scam link protection
+
+AutoMod Actions:
+
+• Delete message
+• Warn user
+• Timeout user
+• Kick user
+• Ban user
+• Log incident
+
+Example commands:
+
+/automod enable
+/automod disable
+/automod addword
+/automod removeword
+/automod settings
+
+Music System
+
+High quality Discord music system with queue management.
+
+Slash Commands:
+
+/play – Play music from YouTube or Spotify
+/pause – Pause current song
+/resume – Resume music
+/skip – Skip current track
+/queue – Show music queue
+/stop – Stop music and clear queue
+/loop – Loop song or queue
+/volume – Change music volume
+/nowplaying – Show current track
+/shuffle – Shuffle queue
+
+Music Features:
+
+• High quality audio
+• Queue management
+• Playlist support
+• Loop system
+• Spotify support
+• Auto disconnect
+
+AI Chat System
+
+Sapphire Bot includes AI powered responses.
+
+Commands:
+
+/chat – Ask the AI anything
+/ai – Chat with Sapphire AI
+/translate – Translate text
+/summarize – Summarize long messages
+
+Features:
+
+• Smart conversations
+• Context understanding
+• Multi-language support
+• Content moderation
+
+Leveling System
+
+Encourages activity with XP and rank rewards.
+
+Commands:
+
+/rank – Show your level
+/leaderboard – Server leaderboard
+/level – Show level progress
+/setlevelrole – Set role rewards
+
+Features:
+
+• XP system
+• Level rewards
+• Leaderboards
+• Custom XP rates
+
+Economy System
+
+Virtual economy system for fun interaction.
+
+Commands:
+
+/balance – Check balance
+/daily – Claim daily coins
+/work – Earn coins
+/gamble – Gamble coins
+/shop – Buy items
+/inventory – View items
+/pay – Pay another user
+
+Features:
+
+• Currency system
+• Shop system
+• Economy leaderboard
+
+Ticket System
+
+Professional support ticket system.
+
+Commands:
+
+/ticket create
+/ticket close
+/ticket add
+/ticket remove
+/ticket panel
+
+Features:
+
+• Private support channels
+• Staff management
+• Ticket logs
+• Button ticket system
+
+Giveaway System
+
+Easily create giveaways for your community.
+
+Commands:
+
+/giveaway start
+/giveaway end
+/giveaway reroll
+/giveaway list
+
+Features:
+
+• Automatic winner selection
+• Timed giveaways
+• Reaction participation
+
+Logging System
+
+Track everything happening in the server.
+
+Log types:
+
+• Message edits
+• Message deletes
+• Member joins
+• Member leaves
+• Role updates
+• Channel changes
+• Moderation actions
+
+Commands:
+
+/logs enable
+/logs disable
+/logs channel
+
+Welcome & Goodbye System
+
+Automated welcome messages for new members.
+
+Commands:
+
+/welcome setup
+/welcome message
+/goodbye setup
+
+Features:
+
+• Custom welcome messages
+• Embed messages
+• Welcome images
+• Role auto assign
+
+Reaction Roles
+
+Users can choose roles by reacting.
+
+Commands:
+
+/reactionrole create
+/reactionrole delete
+/reactionrole list
+
+Features:
+
+• Button roles
+• Reaction roles
+• Auto role assignment
+
+Utility Commands
+
+Useful commands for daily use.
+
+Commands:
+
+/userinfo – Show user info
+/serverinfo – Show server info
+/avatar – Show user avatar
+/ping – Show bot latency
+/remind – Set reminder
+/poll – Create poll
+/snipe – Show last deleted message
+/math – Solve math problems
+
+Fun & Mini Games
+
+Entertainment commands.
+
+Commands:
+
+/meme
+/joke
+/8ball
+/coinflip
+/trivia
+/rps
+/guess
+/slots
+
+Features:
+
+• Multiplayer mini games
+• Leaderboards
+• Random fun commands
+
+Server Management
+
+Commands to manage server configuration.
+
+Commands:
+
+/config
+/settings
+/role create
+/role delete
+/channel create
+/channel delete
+
+Premium Features
+
+Premium unlocks powerful advanced capabilities.
+
+Premium Features:
+
+• Advanced AI responses
+• Unlimited automod rules
+• Advanced logging
+• Custom bot prefix
+• Advanced analytics dashboard
+• Server statistics
+• Premium music quality
+• Unlimited giveaways
+• Priority support
+
+Premium Commands:
+
+/premium activate
+/premium status
+/premium features
+
+Advanced Slash Commands System
+
+Sapphire Bot is fully built with Discord slash commands.
+
+Advanced features include:
+
+• Command permissions
+• Role restrictions
+• Channel restrictions
+• Command cooldowns
+• Command categories
+• Autocomplete options
+• Interactive buttons
+• Select menus
+• Modal forms
+
+Dashboard Features (Web Panel)
+
+Sapphire also includes a web dashboard to manage the bot easily.
+
+Dashboard Features:
+
+• Configure automod
+• Manage tickets
+• Configure welcome messages
+• Manage reaction roles
+• View logs
+• Manage giveaways
+• Moderation history
+
+Security Features
+
+Protection systems for large servers.
+
+Security:
+
+• Anti raid detection
+• Bot abuse protection
+• API rate limit protection
+• Permission checks
+• Secure database storage
+
+Performance
+
+Sapphire Bot is optimized for performance.
+
+• Fast response time
+• Scalable architecture
+• Reliable uptime
+• Cloud hosting support
