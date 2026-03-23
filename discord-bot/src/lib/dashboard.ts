@@ -1,6 +1,5 @@
 import crypto from "crypto";
-import { db } from "./db.js";
-import { dashboardTokensTable } from "./db.js";
+import { db, dashboardTokensTable } from "./db.js";
 import { lt } from "drizzle-orm";
 
 export function generateToken(): string {
@@ -11,7 +10,6 @@ export function generateToken(): string {
 export async function createDashboardToken(guildId: string, userId: string): Promise<string> {
   const token = generateToken();
   const expiresAt = new Date(Date.now() + 15 * 60 * 1000);
-
   await db.insert(dashboardTokensTable).values({
     token,
     guildId,
@@ -19,13 +17,9 @@ export async function createDashboardToken(guildId: string, userId: string): Pro
     expiresAt,
     used: false,
   });
-
   return token;
 }
 
 export async function cleanExpiredTokens(): Promise<void> {
   await db.delete(dashboardTokensTable).where(lt(dashboardTokensTable.expiresAt, new Date()));
 }
-﻿
-Totsdabesh
-totsdabesh
