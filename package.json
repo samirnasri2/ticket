@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install": "npm install --prefix discord-bot",
-    "start": "npx --prefix discord-bot tsx discord-bot/src/register.ts && npx --prefix discord-bot tsx discord-bot/src/index.ts"
+    "start": "node --import tsx/esm discord-bot/src/register.ts && node --import tsx/esm discord-bot/src/index.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.0.0"
   }
 }
