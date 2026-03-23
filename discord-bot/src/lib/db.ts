@@ -9,7 +9,7 @@ if (!process.env.DATABASE_URL) {
 
 export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 
-import * as schema from "../../db/src/schema/index.js";
+import * as schema from "../../../../db/src/schema/index.js";
 export const db = drizzle(pool, { schema });
 
-export * from "../../db/src/schema/index.js";
+export * from "../../../../db/src/schema/index.js";
