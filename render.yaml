@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: ticket-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DISCORD_BOT_TOKEN
+        scope: run
+      - key: NODE_ENV
+        value: production
